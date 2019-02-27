@@ -20,6 +20,7 @@ import com.sc.coffeeprince.listener.OnRegisterListener;
 import com.sc.coffeeprince.model.ResponseResult;
 import com.sc.coffeeprince.model.User;
 import com.sc.coffeeprince.util.Configs;
+import com.sc.coffeeprince.util.FomatUtils;
 import com.sc.coffeeprince.util.WsConfig;
 
 import okhttp3.RequestBody;
@@ -80,6 +81,8 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
 
         if (user.getId().equals("")) {
             responseResult = new ResponseResult().setRespMsg("이메일을 입력하세요.");
+        } else if (FomatUtils.isEmail(user.getId())==false) {
+            responseResult = new ResponseResult().setRespMsg("이메일 형식에 맞춰 작성해주세요.");
         } else if (user.getPassword().equals("")) {
             responseResult = new ResponseResult().setRespMsg("비밀번호를 입력하세요.");
         } else if (!user.getPassword().equals(inputCheckPassword.getText().toString())) {

@@ -167,8 +167,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
         UserHelper userHelper = new UserHelper(this);
         User user = userHelper.selectUser();
-        txtLogin.setText(user.getId());
         if(user != null) {
+            txtLogin.setText(user.getId());
             if (user.getFacebook() != null) {
                 imgProfile.setVisibility(headerView.VISIBLE);
                 btnCallCenter.setVisibility(headerView.INVISIBLE);

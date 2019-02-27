@@ -79,9 +79,9 @@ lint/outputs/
 lint/tmp/
 # lint/reports/
 
-*.iml
 .gradle
 .DS_Store
 /build
 .externalNativeBuild
 /app/src/main/java/com/sc/coffeeprince/util/WsConfig.java
+/app/google-services.json
