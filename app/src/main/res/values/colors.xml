@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFB300</color>
+    <color name="colorAccent">#FF6F00</color>
+    <color name="colorInactive">#80747474</color>
+    <color name="colorActiveSmall">#FFFFFF</color>
+    <color name="colorInactiveSmall">#90FFFFFF</color>
+    <color name="textColorHint">#60607D8B</color>
+    <color name="textColorPrimary">#2D2D32</color>
+    <color name="textColorPrimaryDark">#2D2D32</color>
+
+    <color name="common_action_bar_splitter">#ffd2d2d2</color>
+    <color name="colorSecond">#A05748FD</color>
+    <color name="colorThird">#3E4757</color>
+
+    <color name="lightGray">#EEE</color>
+    <color name="blue_grey_500">#607D8B</color>
+    <color name="blue_grey_600">#546E7A</color>
+    <color name="blue_grey_700">#455A64</color>
+    <color name="blue_grey_800">#37474F</color>
+    <color name="blue_grey_900">#263238</color>
+
+    <color name="amber_50">#fff8e1</color>
+    <color name="amber_100">#ffecb3</color>
+    <color name="amber_200">#ffe082</color>
+    <color name="amber_300">#ffd54f</color>
+
+    <color name="grey_300">#e0e0e0</color>
+    <color name="grey">#9e9e9e</color>
+    <color name="grey_border">#f2f2f2</color>
+    <color name="back_grey">#f7f7f7</color>
+    <color name="bold_grey">#87888c</color>
+    <color name="right_arraw">#787878</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="blue_grey">#455A64</color>
+    <color name="dark_grey">#2B2B2B</color>
+    <color name="red">#F44336</color>
+    <color name="pink">#FC75E9</color>
+    <color name="purple">#9C27B0</color>
+    <color name="deep_purple">#673AB7</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="blue">#2196F3</color>
+    <color name="light_blue">#4bb0fc</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="teal">#009688</color>
+    <color name="green">#4CAF50</color>
+    <color name="light_green">#8BC34A</color>
+    <color name="lime">#CDDC39</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="amber">#FFC107</color>
+    <color name="orange">#FF9800</color>
+    <color name="deep_orange">#FF5722</color>
+
+    <color name="grapefruit_normal">#ED5565</color>
+    <color name="grapefruit_dark">#DA4453</color>
+
+    <color name="bittersweet_normal">#FC6E51</color>
+    <color name="bittersweet_dark">#E9573F</color>
+
+    <color name="sunflower_normal">#FFCE54</color>
+    <color name="sunflower_dark">#F6BB42</color>
+
+    <color name="grass_normal">#A0D468</color>
+    <color name="grass_dark">#8CC152</color>
+
+    <color name="mint_normal">#48CFAD</color>
+    <color name="mint_dark">#37BC9B</color>
+
+    <color name="aqua_normal">#4FC1E9</color>
+    <color name="aqua_dark">#3BAFDA</color>
+
+    <color name="blue_jeans_normal">#5D9CEC</color>
+    <color name="blue_jeans_dark">#4A89DC</color>
+
+    <color name="lavander_normal">#AC92EC</color>
+    <color name="lavander_dark">#967ADC</color>
+
+    <color name="from">#000000</color>
+    <color name="subject">#111111</color>
+    <color name="timestamp">#4285f4</color>
+    <color name="message">#7a7a7a</color>
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="row_activated">#e0e0e0</color>
+    <color name="bg_action_mode">#757575</color>
+    <color name="bg_circle_default">#666666</color>
+
+    <color name="bg_google_color">#FAFAFA</color>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">커피프린스</string>
+    <string name="strRegister">회원가입</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <string name="facebook_app_id">1878111369168354</string>
+    <string name="fb_login_protocol_scheme">fb1878111369168354</string>
+
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "370539891012",
+    "firebase_url": "https://test-a7a40.firebaseio.com",
+    "project_id": "test-a7a40",
+    "storage_bucket": "test-a7a40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370539891012:android:739b428700ef46b2",
+        "android_client_info": {
+          "package_name": "com.test.coffeeprince"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370539891012-9mt68kk7kbrfcaskhmaq5dtasovkluu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlP_KVtBNYNZvcb3lUpXYHuRJCd8GV3E8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

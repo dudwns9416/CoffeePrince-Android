@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/layoutCafeCreateActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="@drawable/rectangle_cafemanager"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/bold_grey"
+            android:text="카페 등록"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="0.4"/>
+        <ImageView
+            android:id="@+id/imageViewCreateCafe"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_weight="0.2" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutCafeUpdateActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="@drawable/rectangle_cafemanager"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/bold_grey"
+            android:text="카페 수정"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="0.4"/>
+        <ImageView
+            android:id="@+id/imageViewCafeUpdate"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_weight="0.2" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutGroupMenuCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="@drawable/rectangle_cafemanager"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/bold_grey"
+            android:text="메뉴 분류 등록"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="0.4"/>
+        <ImageView
+            android:id="@+id/imageViewCreateGroupMenu"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_weight="0.2" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutMenusCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="@drawable/rectangle_cafemanager"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/bold_grey"
+            android:text="메뉴  등록"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="0.4"/>
+        <ImageView
+            android:id="@+id/imageViewCreateMenu"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_weight="0.2" />
+    </LinearLayout>
+</LinearLayout>

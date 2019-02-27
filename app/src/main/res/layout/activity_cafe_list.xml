@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cafe_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:mContext="com.sc.coffeeprince.activity.CafeListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+        </android.support.design.widget.AppBarLayout>
+
+        <include layout="@layout/content_cafe_list" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/inputSearchBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:drawableRight="@null"
+                android:inputType="text"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:maxLength="64"
+                android:maxLines="1"
+                android:textSize="14dp"
+                android:visibility="invisible"/>
+        </android.support.design.widget.TextInputLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

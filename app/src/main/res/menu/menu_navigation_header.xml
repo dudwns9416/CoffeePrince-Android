@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navHome"
+            android:icon="@drawable/ic_home"
+            android:title="홈"/>
+        <item
+            android:id="@+id/navPayCompleteList"
+            android:icon="@drawable/ic_credit"
+            android:title="결제목록"/>
+        <item
+            android:id="@+id/navCafeManager"
+            android:icon="@drawable/ic_coffee_shop"
+            android:title="사장님페이지"/>
+        <item
+            android:id="@+id/navLogOut"
+            android:icon="@drawable/ic_exit"
+            android:title="로그아웃"/>
+    </group>
+</menu>

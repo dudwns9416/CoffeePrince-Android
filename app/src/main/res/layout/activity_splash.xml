@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layoutAnimation="@anim/layout_bottom_top_slide_1500"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgSplash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:largeHeap="true"
+        android:src="@drawable/bg_splash_maini"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/txtSplash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="커피프린스\nCoffeePrince" />
+
+</RelativeLayout>

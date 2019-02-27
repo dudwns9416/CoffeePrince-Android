@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.top-image-container {
+    position: relative;
+    /*padding: 5px;*/
+}
+
+.top-image {
+    max-width: 100%;
+    height: auto;
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: #b0b0b0;
+    border-radius: 20px;*/
+}
+
+.collapsible {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.collapsible-header {
+    font-size: 18px;
+}
+.collapsible-body {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+}
+.collapsible-body p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 150%;
+}
+
+.span-font-weight-bold {
+    font-weight: bold;
+}
+
+.div-subtitle-background {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #d2d2d2;
+    bold-weight: 0px;
+    text-align: center;
+}
+
+.span-subtitle-font {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    vertical-align: middle;
+}
+
+.home-image {
+    max-width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.font-align-center {
+    text-align: center;
+}
+
+.atopy-food-list-top {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    bold-weight: 0px;
+    text-align: center;
+    border-bottom:1px solid #c5c5c5;
+}
+
+.atopy-food-list-top-font {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    vertical-align: middle;
+}
+
+.atopy-food-container {
+    width: 100%;
+    height: 60px;
+    line-height: 40px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.atopy-food-title {
+    width: 30%;
+    height: 40px;
+    vertical-align: middle;
+    float: left;
+}
+
+.atopy-food-content {
+    width: 70%;
+    line-height: normal;
+    float: right;
+}
+
+.collasible-body-custom1 {
+    padding: 0;
+}
+
+.atopy-food-imagebox {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.atopy-food-imagebox-content {
+    max-width: 40%;
+    height: auto;
+}
