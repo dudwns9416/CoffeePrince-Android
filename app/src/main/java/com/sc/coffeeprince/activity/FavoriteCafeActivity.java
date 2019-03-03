@@ -74,7 +74,6 @@ public class FavoriteCafeActivity extends AppCompatActivity implements CafeListA
 
     @Override
     public void onIconClicked(int position) {
-
     }
 
     @Override

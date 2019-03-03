@@ -38,7 +38,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class CafeListActivity extends AppCompatActivity implements SwipeRefreshLayout.OnRefreshListener, CafeListAdapter.CafeListAdapterListener {
+public class CafeListActivity extends AppCompatActivity implements CafeListAdapter.CafeListAdapterListener, SwipeRefreshLayout.OnRefreshListener {
 
     @BindView(R.id.toolbar)
     Toolbar toolbar;
